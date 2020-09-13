@@ -8,9 +8,11 @@
     <title>Lost Shop</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+<div class="wrapper">
     <section class="hero">
         <header class="header">
             <a href="index.html" class="logo">
@@ -21,15 +23,129 @@
                 <div class="mail__content">lostinspace@mail.com</div>
             </a>
         </header>
+        <div class="hero__content">
             <div class="fade-slider">
                 <div class="fade-slider__item"></div>
-                <h1 class="lined-text">
-                    <div class="line-text__word">Buy three</div>
-                    <div class="line-text__word">t-shirts,</div>
-                    <div class="line-text__word line-text__word--color--yellow">pay just</div>
-                    <div class="line-text__word line-text__word--color--yellow">for two!</div>
-                </h1>
+                <div class="fade-slider__text">
+                    <h1 class="lined-text">
+                        <div class="line-text__word">Buy three</div>
+                        <div class="line-text__word">t-shirts,</div>
+                        <div class="line-text__word line-text__word--color--yellow">pay just</div>
+                        <div class="line-text__word line-text__word--color--yellow">for two!</div>
+                    </h1>
+                </div>
             </div>
+        </div>
     </section>
+
+    <section class="products">
+        <div class="container">
+            <ul class="filter">
+                <li class="filter__item filter__item--active">
+                    <a href="" class="filter__link">Popular</a>
+                </li>
+                <li class="filter__item">
+                    <a href="" class="filter__link">New</a>
+                </li>
+                <li class="filter__item">
+                    <a href="" class="filter__link">Bestsellers</a>
+                </li>
+                <li class="filter__item">
+                    <a href="" class="filter__link">Special offers</a>
+                </li>
+                <li class="filter__item">
+                    <a href="" class="filter__link">Coming soon</a>
+                </li>
+            </ul>
+
+            <ul class="products__list">
+                <li class="products__item">
+                    <div class="products__price">
+                        <div class="products__price-amount">35 euro</div>
+                    </div>
+                    <div class="products__content">
+                        <img src="img/tshirts/tshirt_01.png" alt="bo-jack tshirt" class="products__img">
+                        <div class="product__desc">
+                            <div class="product__desc--text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <a href="" class="btn">Details</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="products__item">
+                    <div class="products__price">
+                        <div class="products__price-amount">25 euro</div>
+                    </div>
+                    <div class="products__content">
+                        <img src="img/tshirts/tshirt_02.png" alt="bo-jack tshirt" class="products__img">
+                        <div class="product__desc">
+                            <div class="product__desc--text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <a href="" class="btn">Details</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="products__item products__item--color-black products__item--size-double">
+                    <div class="products__price">
+                        <div class="products__price-amount">30 euro</div>
+                    </div>
+                    <div class="products__content">
+                        <img src="img/tshirts/tshirt_03.png" alt="bo-jack tshirt" class="products__img">
+                        <div class="product__desc">
+                            <div class="product__desc--text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <a href="" class="btn">Details</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="products__item products__item--color-black products__item--size-double">
+                    <div class="products__price">
+                        <div class="products__price-amount">28 euro</div>
+                    </div>
+                    <div class="products__content">
+                        <img src="img/tshirts/tshirt_04.png" alt="bo-jack tshirt" class="products__img">
+                        <div class="product__desc">
+                            <div class="product__desc--text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <a href="" class="btn">Details</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="products__item">
+                    <div class="products__price">
+                        <div class="products__price-amount">30 euro</div>
+                    </div>
+                    <div class="products__content">
+                        <img src="img/tshirts/tshirt_05.png" alt="bo-jack tshirt" class="products__img">
+                        <div class="product__desc">
+                            <div class="product__desc--text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <a href="" class="btn">Details</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="products__item">
+                    <div class="products__price">
+                        <div class="products__price-amount">25 euro</div>
+                    </div>
+                    <div class="products__content">
+                        <img src="img/tshirts/tshirt_06.png" alt="bo-jack tshirt" class="products__img">
+                        <div class="product__desc">
+                            <div class="product__desc--text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <a href="" class="btn">Details</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
 </body>
 </html>
