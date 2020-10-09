@@ -620,3 +620,24 @@ header {
     width: 100%;
     height: 100%;
 }
+
+/*product page styling*/
+
+.header__bg {
+    overflow: hidden;
+    height: 170px;
+}
+
+.header__promo {
+    height: 127px;
+    margin: auto;
+}
+
+.header__promo__img {
+    height: 180px;
+}
+
+.header__promo__text {
+    position: absolute;
+}
+
