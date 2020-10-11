@@ -635,9 +635,75 @@ header {
 
 .header__promo__img {
     height: 180px;
+    position: absolute;
+    /*right: 550px;*/
+    right: 40%;
 }
 
 .header__promo__text {
     position: absolute;
+    left: 35%;
+    top: 8%;
 }
 
+.lined-text__promo {
+    font-size: 20px;
+}
+
+.line-text__word__promo {
+    padding: 0 5px 7px;
+}
+
+.t-shirt {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.container__product {
+    margin: 0 auto;
+    width: 900px;
+    box-sizing: border-box;
+    border: 5px solid var(--yellow);
+    background-color: var(--yellow);
+    display: flex;
+}
+
+.container__product--yellow-bg {
+    width: 50%;
+    height: 450px;
+    position: relative;
+}
+
+.container__product--yellow-bg img {
+    height: 80%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container__product__text {
+    width: 50%;
+    background-color: #fcf5e6;
+}
+
+.container__product__text--format {
+    padding: 15px;
+}
+
+.container__product__text--format p {
+    margin-bottom: 0;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.filter__product {
+    margin-bottom: 30px;
+}

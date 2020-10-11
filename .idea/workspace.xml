@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3001d108-626a-49f9-a6a3-fce8896a6172" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/product-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -61,6 +63,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,7 +78,8 @@
       <updated>1599719353926</updated>
       <workItem from="1599719355054" duration="14137000" />
       <workItem from="1600234067393" duration="35770000" />
-      <workItem from="1601842104880" duration="7645000" />
+      <workItem from="1601842104880" duration="9434000" />
+      <workItem from="1602274935331" duration="14446000" />
     </task>
     <servers />
   </component>
@@ -88,16 +96,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1599890447997">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="354" y="135" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1599890447997" />
-    <state x="-1135" y="-476" key="SettingsEditor" timestamp="1602262840074">
-      <screen x="-1920" y="-723" width="1920" height="1057" />
+    <state x="438" y="110" width="1002" height="722" key="SettingsEditor" timestamp="1602426269699">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
+    <state x="-1497" y="-610" key="SettingsEditor/0.23.1440.809/-1920.-723.1920.1057@-1920.-723.1920.1057" timestamp="1602333794544" />
+    <state x="438" y="110" width="1002" height="722" key="SettingsEditor/0.23.1440.809@0.23.1440.809" timestamp="1602426269699" />
     <state x="-1135" y="-476" key="SettingsEditor/0.23.1440.877/-1920.-723.1920.1057@-1920.-723.1920.1057" timestamp="1602262840074" />
+    <state x="322" y="157" width="1002" height="722" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1602274923139" />
     <state x="385" y="199" width="670" height="676" key="search.everywhere.popup" timestamp="1600240028854">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
